@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Tudu List</title>
+</head>
+
+<body>
+  <div class="container bg-contrast-higher">
+    <div class="padding-x-md">
+      <ul class="list">
+        <li>
+          <div class="header flex items-center">
+            <div class="grow">
+              <h3>Today's To Do</h3>
+            </div>
+            <div class="grow flex justify-end">
+              <button type="button" class="material-icons bg-none border-none">sync</button>
+            </div>
+          </div>
+        </li>
+        <li class="flex items-center">
+          <form id="form">
+            <input type="text" id="input-description" class="width-100% border-none" placeholder="Add to your list">
+            <input type="submit" class="hide">
+          </form>
+        </li>
+      </ul>
+
+      <ul id="todo_list" class="list">
+        <!-- <li>
+          <div class="flex items-center width-100%">
+            <div class="flex items-center space-between">
+              <div class="clearance-right"><input type="checkbox" class="x" change=""></div>
+              <div>
+                <h4>${task.description}</h4>
+              </div>
+            </div>
+            <div class="flex grow justify-end"><button class="bg-none material-icons border-none">more_vert</button></div>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
+    <button type="button" id="clear" class="width-100% padding-sm">Clear all completed </button>
+  </div>
+</body>
+
+</html>
