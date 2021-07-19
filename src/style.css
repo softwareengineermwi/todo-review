@@ -1,0 +1,107 @@
+body {
+  background-color: #f9f9f9;
+  padding-top: 150px;
+}
+
+.bg-contrast-higher {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.width-100\% {
+  width: 100%;
+}
+
+.clearance-right {
+  margin-right: 32px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  height: 50px;
+}
+
+.list li {
+  padding-left: 32px;
+  padding-right: 32px;
+  list-style: none;
+  border-bottom: 2px solid #e9e6e6;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.gap-sm {
+  gap: 8px;
+}
+
+.padding-sm {
+  padding: 18px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.border-none {
+  border: 0;
+}
+
+.bg-none {
+  background: none;
+}
+
+.x {
+  position: relative;
+  z-index: 1000;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.drop-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.drag-over {
+  background-color: rgb(197, 197, 197);
+}
+
+.strike {
+  text-decoration: line-through;
+}
